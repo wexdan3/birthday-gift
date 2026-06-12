@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A personalized birthday gift website." />
+  <title>Birthday Gift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="love-gate" id="loveGate">
+  <div class="love-gate-card">
+    <div class="love-gate-heart">♡</div>
+    <p class="eyebrow">Important question</p>
+    <h2>Do you love me?</h2>
+
+    <div class="love-buttons">
+      <button class="button primary" id="yesLoveButton" type="button">
+        YES OFCOURSE
+      </button>
+
+      <button class="button ghost runaway-button" id="noLoveButton" type="button">
+        No
+      </button>
+    </div>
+
+    <p class="love-small-text">cant say no</p>
+  </div>
+</div>
+  <div class="heart-lock" id="heartLock">
+  <div class="heart-lock-card">
+    <div class="heart-lock-icon">♡</div>
+    <p class="eyebrow">Private birthday surprise</p>
+    <h2>Hold to open my heart</h2>
+    <p>بس حق جسومي</p>
+    <button class="heart-hold-button" id="heartHoldButton" type="button">
+      Hold me
+    </button>
+    <div class="hold-progress">
+      <span id="holdProgress"></span>
+    </div>
+  </div>
+</div>
+  <div class="noise"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="orb orb-three"></div>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle music">
+    <span id="musicIcon">♫</span>
+  </button>
+
+  <main>
+    <section class="hero section">
+      <nav class="nav">
+        <div class="brand" id="brandText">Birthday Gift</div>
+        <a href="#letter" class="nav-link">Open Letter</a>
+      </nav>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="eyebrow">For someone special</p>
+          <h1 id="heroTitle">Happy Birthday, <span>Someone</span></h1>
+          <p class="hero-message" id="heroMessage">
+            A small digital surprise made with too much care and a lot of love.
+          </p>
+          <div class="hero-actions">
+            <a href="#letter" class="button primary">Start the surprise</a>
+            <button class="button ghost" id="themeButton" type="button">Change mood</button>
+          </div>
+        </div>
+
+        <div class="hero-card tilt-card">
+          <div class="glass-photo">
+            <img id="mainPhoto" src="assets/main-photo.svg" alt="Main birthday memory">
+          </div>
+          <div class="floating-note note-one" id="noteOne">You are loved</div>
+          <div class="floating-note note-two" id="noteTwo">Today is yours</div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">Scroll slowly ↓</div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Countdown</p>
+        <h2>Until the big moment</h2>
+      </div>
+      <div class="countdown-grid" id="countdownGrid">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="birthday-status" id="birthdayStatus"></p>
+    </section>
+
+    <section class="section reveal" id="letter">
+      <div class="letter-card">
+        <p class="eyebrow">Private letter</p>
+        <h2 id="letterTitle">A message for you</h2>
+        <p id="letterBody">
+          This is where your personal letter goes. Make it honest, specific, and warm.
+        </p>
+        <button class="button primary" id="openSecret" type="button">Open secret note</button>
+        <p class="secret-note hidden" id="secretNote"></p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="catchHeartSection">
+  <div class="section-heading">
+    <p class="eyebrow">Tiny game</p>
+    <h2>Catch my heart</h2>
+  </div>
+
+  <div class="catch-card">
+    <p class="catch-instruction">Click the heart before it runs away.</p>
+
+    <div class="catch-area" id="catchArea">
+      <button class="catch-heart" id="catchHeart" type="button" aria-label="Catch the heart">
+        ♡
+      </button>
+    </div>
+
+    <p class="catch-message" id="catchMessage"></p>
+  </div>
+</section>
+
+    <section class="section reveal">
+  <div class="section-heading">
+    <p class="eyebrow">Reasons</p>
+    <h2 id="reasonsTitle">Why you are special</h2>
+  </div>
+
+  <div class="reason-viewer" id="reasonViewer">
+    <button class="reason-arrow" id="reasonPrev" type="button" aria-label="Previous reason">‹</button>
+
+    <article class="reason-note" id="reasonNote">
+      <div class="reason-number" id="reasonNumber">01</div>
+      <h3 id="reasonNoteTitle"></h3>
+      <p id="reasonNoteText"></p>
+      <span class="reason-counter" id="reasonCounter"></span>
+    </article>
+
+    <button class="reason-arrow" id="reasonNext" type="button" aria-label="Next reason">›</button>
+  </div>
+</section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Timeline</p>
+        <h2>Little moments I remember</h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section reveal" id="quizSection">
+  <div class="section-heading">
+    <p class="eyebrow">Memory quiz</p>
+    <h2>Answer this to unlock the memories</h2>
+  </div>
+
+  <div class="quiz-card">
+    <div class="quiz-progress" id="quizProgress">Question 1</div>
+    <h3 id="quizQuestion"></h3>
+
+    <div class="quiz-options" id="quizOptions"></div>
+
+    <p class="quiz-feedback" id="quizFeedback"></p>
+  </div>
+</section>
+
+   <section class="section reveal hidden" id="gallerySection">
+  <div class="section-heading">
+    <p class="eyebrow">Gallery</p>
+    <h2>Memory by memory</h2>
+  </div>
+
+  <div class="memory-viewer" id="memoryViewer">
+    <button class="memory-arrow" id="memoryPrev" type="button" aria-label="Previous memory">‹</button>
+
+    <figure class="memory-frame">
+      <img id="memoryImage" src="" alt="Memory photo">
+      <figcaption>
+        <span id="memoryCounter"></span>
+        <p id="memoryCaption"></p>
+        <small>Click the photo to open it bigger</small>
+      </figcaption>
+    </figure>
+
+    <button class="memory-arrow" id="memoryNext" type="button" aria-label="Next memory">›</button>
+  </div>
+</section>
+
+    <section class="section reveal">
+      <div class="wish-card">
+        <p class="eyebrow">Final wish</p>
+        <h2 id="wishTitle">One last thing</h2>
+        <p id="wishBody">
+          May this year be soft, successful, peaceful, and full of beautiful surprises.
+        </p>
+        <button class="button primary" id="confettiButton" type="button">Celebrate</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="imageModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" type="button">×</button>
+    <img id="modalImage" src="" alt="Expanded memory">
+  </div>
+
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
