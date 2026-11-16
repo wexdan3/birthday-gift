@@ -18,7 +18,7 @@ const SITE_CONTENT = {
   birthdayDate: "2026-11-20T00:00:00",
 
   // Main photo. Replace the file inside assets, or change the filename here.
-  mainPhoto: "assets/main-photo.svg",
+  mainPhoto: "assets/birthday-photo.jpeg",
 
   // Floating notes beside the main photo
   noteOne: "HAPPY BIRTHDAY (˶>⩊<˶)",
