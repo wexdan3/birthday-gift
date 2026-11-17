@@ -171,28 +171,32 @@ const SITE_CONTENT = {
   // Gallery pictures
   gallery: [
     {
-      image: "assets/memory-1.svg",
-      caption: "A favorite little memory"
+      image: "assets/memory1.jpeg",
+      caption: "اول لقاء لنا"
     },
     {
-      image: "assets/memory-2.svg",
-      caption: "A day worth keeping"
+      image: "assets/memory2.jpeg",
+      caption: "احب سخافتنا هههه"
     },
     {
-      image: "assets/memory-3.svg",
-      caption: "This one still makes me smile"
+      image: "assets/memory3.jpeg",
+      caption: "احب يوم تصير حدك كيوت🥹"
     },
     {
-      image: "assets/memory-4.svg",
-      caption: "Main character moment"
+      image: "assets/memory4.jpeg",
+      caption: "احب زوجي المعضل🙈"
     },
     {
-      image: "assets/memory-5.svg",
-      caption: "Soft, happy, unforgettable"
+      image: "assets/memory5.jpeg",
+      caption: "كل عام وانت تسوي لي قلبك المعوق"
     },
     {
-      image: "assets/memory-6.svg",
-      caption: "Proof that good days exist"
+      image: "assets/memory6.jpeg",
+      caption: "كل عام وانا اتاملك تنام جنك ملاك🥺"
+    },
+     {
+      image: "assets/memory7.jpeg",
+      caption: "كل عام وحبيبي وسوستي المزيون بخير💋🫦"
     }
   ],
 
