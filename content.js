@@ -90,31 +90,61 @@ const SITE_CONTENT = {
   // Memory quiz
   memoryQuiz: [
     {
-      question: "Who said I love you first?",
+      question: "من قال احبك اول؟",
       options: [
-        "Me",
-        "You",
-        "We both said it at the same time"
+        "انا",
+        "انت",
+        "ثنينا بنفس الوقت"
       ],
       correctIndex: 1
     },
     {
-      question: "What am I to you?",
+      question: "شنو لوني المفضل؟",
       options: [
-        "Just someone",
-        "Your headache",
-        "Your favorite person"
+        "اخضر فاتح",
+        "اخضر غامج",
+        "اخضر باستل"
       ],
       correctIndex: 2
     },
     {
-      question: "What should you choose forever?",
+      question: "شنو اسم جدتي الله يرحمها؟",
       options: [
-        "Me",
-        "Also me",
-        "Still me"
+        "عاليه",
+        "فاطمه",
+        "غاليه"
       ],
-      correctIndex: 0
+      correctIndex: 1
+    }, 
+    {
+      question: "شنو احلى فاكهه عندي؟",
+      options: [
+        "تفاح",
+        "يوسفي",
+        "برتقال"
+      ],
+      correctIndex: 1
+    },
+    {
+      question: "انت شنو بالنسبه لي ؟",
+      options: [
+        "حبيبي",
+        "زوجي",
+        "ولدي",
+        "ابوي",
+        "كلهم ياعمري"
+      ],
+      correctIndex: 4
+    },
+    {
+      question: "الساعه جم كان حفل تخرجي؟",
+      options: [
+        "4:30",
+        "5:00",
+        "5:30",
+        "5:45"
+      ],
+      correctIndex: 2
     }
   ],
 
