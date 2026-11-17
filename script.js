@@ -265,7 +265,7 @@ function setupThemeButton() {
 function setupMusic() {
   const toggle = $("#musicToggle");
 
-  const youtubeSongUrl = "https://youtu.be/lC_oE025a1g";
+  const youtubeSongUrl = "https://youtu.be/C11sKQphVwk?si=7f4Dposhktkah5t5";
 
   toggle.addEventListener("click", () => {
     spawnKisses(toggle, 12);
