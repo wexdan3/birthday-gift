@@ -10,7 +10,7 @@ const SITE_CONTENT = {
   personName: "jasoomy",
   pageTitle: "Happy Birthday, jasoomy",
   brandText: "For jasoomy",
-  eyebrow: "A luxury little birthday surprise ⋆⭒˚.⋆",
+  eyebrow: "هديه لحبيب عمري ⋆⭒˚.⋆",
   heroMessage:
     "لانك احن واهم شخص في حياتي اهديك هالمفاجئه الي اصلا قليل بحقك يا اغلى من كل شي و يا احلى صدفه ونصيب كل عام وانت بخير يا ويه الخير احبك ",
 
@@ -71,19 +71,19 @@ const SITE_CONTENT = {
   // Timeline section
   timeline: [
     {
-      date: "The beginning",
-      title: "When I first knew you were different",
-      text: "there was something about you that felt different, something deep down in me felt like this is gonna be something special..."
+      date: "1 October 2026",
+      title: "البدايه",
+      text: "ابتدت حكايتنا بديمه..."
     },
     {
-      date: "confession",
+      date: "6 November 2025",
       title: "first i love you",
-      text: "i can not forget the first time you told me you loved its one of the most memories that i will cherish forever, your tone and voice when you said it and how nervous you sounded honestly made my heart melt."
+      text: "اول مره سمعتك تقولها و اول شعور ماقدرت اوصفه تاكد انها من اللحظات الي مستحيل انساها"
     },
     {
-      date: "Today",
+      date: "20 November",
       title: "Your birthday",
-      text: "im so grateful and thankful that you were born in this world this time of us both living so i can meet my soulmate i love you so much and cant wait to spend the rest of my life with you ♡"
+      text: "عيد ميلاد حبيبي ونور عيني واغلى شخص فحياتي فديته عسى الله يطول بعمرك يا اغلى محبيني♡"
     }
   ],
 
