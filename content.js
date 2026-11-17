@@ -145,6 +145,26 @@ const SITE_CONTENT = {
         "5:45"
       ],
       correctIndex: 2
+    },
+    {
+      question: "جم معدلي ؟",
+      options: [
+        "2.43",
+        "2.25",
+        "2.34",
+        "2.51"
+      ],
+      correctIndex: 2
+    },
+    {
+      question: "جم دفه عندي حاليا",
+      options: [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      correctIndex: 0
     }
   ],
 
